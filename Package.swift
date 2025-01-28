@@ -4,10 +4,10 @@ import PackageDescription
 let package = Package(
     name: "jwt-kit",
     platforms: [
-        .macOS(.v13),
-        .iOS(.v15),
-        .tvOS(.v15),
-        .watchOS(.v8),
+        .macOS(.v12),
+        .iOS(.v14),
+        .tvOS(.v14),
+        .watchOS(.v7),
     ],
     products: [
         .library(name: "JWTKit", targets: ["JWTKit"])
